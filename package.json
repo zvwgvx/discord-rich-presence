@@ -5,10 +5,10 @@
   "description": "Personal Discord Rich Presence controller with a GTA VI preset",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node --env-file=.env index.js",
     "check": "node --check index.js && node --check preset.js && node --check time.js",
     "preset:gta6": "node preset.js gta6",
-    "gta6": "node preset.js gta6 && node index.js"
+    "gta6": "node preset.js gta6 && node --env-file=.env index.js"
   },
   "engines": {
     "node": ">=20.18.0"
