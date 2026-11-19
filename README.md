@@ -39,8 +39,7 @@ Edit `.env` locally and replace the placeholder with your own credential. Do not
 Activate the GTA VI preset and start the app:
 
 ```bash
-npm run preset:gta6
-npm start
+npm run gta6
 ```
 
 `config.json` is generated locally and ignored by Git. To use another profile, place its JSON file in `presets/<name>.json`, then run `node preset.js <name>`. This repository includes only the GTA VI example.

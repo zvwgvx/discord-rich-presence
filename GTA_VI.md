@@ -26,8 +26,7 @@ The `ps5` field is only a platform hint for Rich Presence. The official **Playin
 After installing dependencies and creating your private `.env` file:
 
 ```bash
-npm run preset:gta6
-npm start
+npm run gta6
 ```
 
 For an existing systemd service, replace `npm start` with:

@@ -7,7 +7,8 @@
   "scripts": {
     "start": "node index.js",
     "check": "node --check index.js && node --check preset.js && node --check time.js",
-    "preset:gta6": "node preset.js gta6"
+    "preset:gta6": "node preset.js gta6",
+    "gta6": "node preset.js gta6 && node index.js"
   },
   "engines": {
     "node": ">=20.18.0"
