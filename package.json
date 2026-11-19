@@ -1,0 +1,18 @@
+{
+  "name": "discord-rich-presence-selfbot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal Discord Rich Presence controller with a GTA VI preset",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js && node --check preset.js && node --check time.js",
+    "preset:gta6": "node preset.js gta6"
+  },
+  "engines": {
+    "node": ">=20.18.0"
+  },
+  "dependencies": {
+    "discord.js-selfbot-v13": "3.7.1"
+  }
+}

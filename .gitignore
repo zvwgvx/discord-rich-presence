@@ -1,0 +1,11 @@
+node_modules/
+.env
+.env.*
+!.env.example
+config.json
+npm-debug.log*
+*.log
+.DS_Store
+presets/chill.json
+presets/research.json
+assets/

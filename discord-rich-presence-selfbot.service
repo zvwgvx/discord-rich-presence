@@ -1,0 +1,17 @@
+[Unit]
+Description=Discord Rich Presence Selfbot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/discord-rich-presence
+EnvironmentFile=%h/discord-rich-presence/.env
+ExecStart=/usr/bin/node %h/discord-rich-presence/index.js
+Restart=on-failure
+RestartSec=30
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=default.target

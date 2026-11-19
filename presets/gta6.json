@@ -1,0 +1,27 @@
+{
+  "name": "Grand Theft Auto VI",
+  "details": null,
+  "state": null,
+  "status": "dnd",
+  "activityType": "PLAYING",
+  "applicationId": "1572964622938542150",
+  "largeImage": "1572964991118741646",
+  "largeText": "Grand Theft Auto VI",
+  "smallImage": "",
+  "smallText": "",
+  "imageUrls": {
+    "large": "",
+    "small": ""
+  },
+  "showElapsed": true,
+  "elapsedStartMode": "session",
+  "party": {
+    "enabled": false,
+    "current": 1,
+    "max": 1,
+    "id": "gta6"
+  },
+  "elapsedStartAt": "2026-11-13T20:49:16+07:00",
+  "refreshMinutes": 3,
+  "platform": "ps5"
+}
